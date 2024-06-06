@@ -26,7 +26,7 @@ workflows:
       - name: get flutter packages
         script: flutter packages pub get
       - name: build apk
-        script: flutter build apk --release
+        script: flutter build apk --release --no-sound-null-safety
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
     publishing:
