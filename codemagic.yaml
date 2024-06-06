@@ -5,7 +5,7 @@ workflows:
     instance_type: mac_mini_m1
     max_build_duration: 100
     environment:
-      flutter: stable
+      flutter: 2.10.0
       xcode: latest
       cocoapods: 1.9.1
       node: 12.14.0
